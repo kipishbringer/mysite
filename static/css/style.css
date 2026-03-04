@@ -23,7 +23,8 @@ main {
 div {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     gap: 10px;
     font-size: 18px;
 }
@@ -33,7 +34,8 @@ h2 {
 }
 
 img {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     object-fit: contain;
 }
 
@@ -71,4 +73,12 @@ li {
   100% {
     background-position: 100% 50%;
   }
+}
+
+@media (max-width: 768px) {
+
+main {
+    flex-direction: column;
+
+}
 }
