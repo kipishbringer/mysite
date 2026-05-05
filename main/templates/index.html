@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
+      <text y=%22.9em%22 font-size=%2290%22>👽</text></svg>">
+    <link href="/static/css/style.css" rel="stylesheet">
+    <title>portfolio</title>
+</head>
+<body>
+<header>
+    <h1><span class="rainbow">fast-made</span> portfolio</h1>
+</header>
+<main>
+	<img src="/media/photo.jpg">
+    <div>
+        <h2>Обо мне</h2>
+        <p>Меня зовут Семён, я бэкенд-разработчик, живу в Новосибирске,
+        в свободное от работы время делаю пет-проекты используя различные новшества для повышения профессионализма.</p>
+        <ui> Стек
+            <li style="list-style-type: '🐍'">Python (Django, DRF, Celery)</li>
+            <li style="list-style-type: '📚'">PostgreSQL, Redis</li>
+            <li style="list-style-type: '🐧'">Linux (серверная реализация веб-приложений)</li>
+            <li>Docker, Docker Compose</li>
+            <li>Github/Gitlab</li>
+            <li>HTML, CSS, JS - little bit</li>
+        </ui>
+        <ui> Проекты
+            <li style="list-style-type: '🍝'"><a href="https://github.com/kipishbringer/restaurant" target="_blank">
+                Сайт ресторана</a> - на сайте есть возможность бронирования столов
+                по времени и дате, CRM для официантов, рассылка рекламы, подробности в README.</li>
+            <li style="list-style-type: '⚽'"><a href="https://github.com/kipishbringer/football_game" target="_blank">
+                Футбольный фан-сайт</a> - сайт-игра "угадай футболиста",
+            сделанный совместно с дизайнером Алексеем, реализовано постоянное обновление БД парсингом,
+                подробности в README.</li>
+        </ui>
+        <ui> Контакты
+            <li><a href="https://github.com/kipishbringer" target="_blank">github</a></li>
+            <li><a href="https://www.t.me/smnkrgnv" target="_blank">telegram</a></li>
+            <li>email: kipishbringer@gmail.com</li>
+            <li>phone: +79965454909</li>
+        </ui>
+
+    </div>
+
+</main>
+</body>
+</html>
